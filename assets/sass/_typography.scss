@@ -25,7 +25,7 @@
   line-height: 43px; /* 102.381% */
 }
 .H3 {
-  color: var(--white-white, #fff);
+  color: #fff;
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -59,7 +59,6 @@
 .P16w {
   color: #fff;
   /* Button Hauora Bold 16 */
-  font-family: Hauora;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -96,14 +95,24 @@
   .H1 {
     font-size: 40px;
   }
+  .H3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
 }
 @media (max-width: 990px) {
   .H1 {
     font-size: 36px;
     line-height: 41px;
   }
+  .H2 {
+    font-size: 34px;
+  }
 }
 @media (max-width: 768px) {
+  .H2 {
+    font-size: 30px;
+  }
 }
 @media (max-width: 576px) {
 }

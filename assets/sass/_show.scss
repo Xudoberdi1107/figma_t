@@ -29,11 +29,20 @@
 .showcase .text .H1 {
   margin-bottom: 16px;
   width: 100%;
+  background: linear-gradient(
+    92deg,
+    #fff 29.24%,
+    rgba(176, 250, 255, 0) 131.64%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .showcase .text p {
   font-weight: 400;
   max-width: 565px;
   line-height: 32px;
+  opacity: 0.8;
 }
 .showcase .img {
   position: relative;
