@@ -9,4 +9,72 @@
   position: absolute;
   top: -8px;
   right: 0;
+  z-index: -0;
+}
+
+.showcase .title {
+  position: relative;
+  padding-top: 244px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+  // overflow: hidden;
+}
+
+.showcase .text {
+  max-width: 698px;
+}
+.showcase .text .H1 {
+  margin-bottom: 16px;
+  width: 100%;
+}
+.showcase .text p {
+  font-weight: 400;
+  max-width: 565px;
+  line-height: 32px;
+}
+.showcase .img {
+  position: relative;
+  z-index: 66;
+  width: 394px;
+  height: 390px;
+  // background-color: red;
+}
+.showcase .img .b,
+.sh {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1200px) {
+  .showcase .img {
+    width: 294px;
+    height: 290px;
+  }
+  .showcase .text {
+    max-width: 598px;
+  }
+  .showcase .text p {
+    width: 465;
+  }
+}
+@media (max-width: 990px) {
+  .showcase .img {
+    width: 194px;
+    height: 190px;
+  }
+  .showcase .text {
+    max-width: 598px;
+  }
+  .showcase .text p {
+    width: 465;
+  }
+  .showcase .title {
+    flex-direction: column;
+  }
 }
