@@ -1,7 +1,7 @@
 .mainInput {
   width: auto;
 }
-.mainInput form {
+.mainInput .form {
   display: flex;
   width: 661px;
   height: 64px;
@@ -27,4 +27,23 @@
 }
 .mainInput input::placeholder {
   color: white;
+}
+.btn2 {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .btn2 {
+    display: block;
+    margin-top: 16px;
+  }
+  .btn1 {
+    display: none;
+  }
+  .mainInput {
+    width: 100%;
+  }
+  .mainInput .form {
+    width: 100%;
+  }
 }
