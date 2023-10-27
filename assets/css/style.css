@@ -943,11 +943,31 @@ nav {
   .section3_card .card {
     width: 80%;
   }
+  .box_red img {
+    width: 80%;
+  }
 }
 @media (max-width: 576px) {
   .section3_card .card {
     width: 100%;
   }
+}
+footer {
+  width: 100%;
+  background-color: #151822;
+  padding: 50px 0 20px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.left {
+  width: 371px;
+}
+
+.right {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
