@@ -1,0 +1,152 @@
+.box_slides {
+  width: 100%;
+  position: relative;
+  padding: 125px 0;
+  z-index: 88;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //   overflow: hidden;
+}
+
+.box_slides_in {
+  width: 100%;
+  //   width: 1110px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  //   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.cards_sh {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+.card1,
+.card2,
+.card3 {
+  width: 353px;
+  height: 460px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #151822;
+  padding: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+.card1 div,
+.card2 div,
+.card3 div {
+  position: relative;
+  z-index: 2;
+}
+.card1 p,
+.card2 p,
+.card3 p {
+  opacity: 0.8;
+}
+.card1 .P18w,
+.card2 .P18w,
+.card3 .P18w {
+  line-height: 32px;
+}
+.card1 .P16w,
+.card2 .P16w,
+.card3 .P16w .P16w {
+  margin-top: 16px;
+}
+.card1 .Btn_g_b,
+.card2 .Btn_g_b,
+.card3 .Btn_g_b {
+  margin-top: 32px;
+}
+.card1 .img_card,
+.card2 .img_card,
+.card3 .img_card {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.btn_arrow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  bottom: -54px;
+  left: 0;
+}
+.btn_arrow button {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  color: white;
+  border-radius: 100%;
+  background-color: #0d111b;
+  border: 1px solid #282b34;
+  stroke-width: 1px;
+  stroke: rgba(255, 255, 255, 0.11);
+  box-shadow: 0px 4px 21px 0px rgba(0, 0, 0, 0.59);
+}
+.btn_arrow label {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.uk-grid {
+  gap: 24px;
+  width: 100%;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  display: flex;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.uk-light li {
+  width: 353px;
+  overflow: visible !important;
+}
+
+@media (max-width: 1200px) {
+  //   .box_slides_in {
+  //     left: -90px;
+  //   }
+}
+@media (max-width: 990px) {
+  //   .box_slides_in {
+  //     left: -210px;
+  //   }
+}
+@media (max-width: 768px) {
+  //   .box_slides_in {
+  //     left: -300px;
+  //   }
+}
+@media (max-width: 576px) {
+  //   .box_slides_in {
+  //     left: -375px;
+  //   }
+}

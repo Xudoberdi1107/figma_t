@@ -61,8 +61,16 @@
   padding: 28px 0 30px 28px;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.section3_card .card button {
+  justify-self: flex-end;
 }
 .shag {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,11 +89,12 @@
   padding-left: 7px;
   margin-bottom: 10px;
 }
-.card .H3 {
-  margin-bottom: 23px;
+.section3_card .card .H3 {
+  width: 100%;
   position: relative;
   z-index: 2;
   padding-right: 28px;
+  margin: 0;
 }
 .img_card_sh {
   position: absolute;

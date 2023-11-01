@@ -6,26 +6,26 @@
 }
 @media (max-width: 1660px) {
   .container {
-    max-width: 1140px;
+    width: 1140px;
   }
 }
 @media (max-width: 1200px) {
   .container {
-    max-width: 960px;
+    width: 960px;
   }
 }
 @media (max-width: 990px) {
   .container {
-    max-width: 720px;
+    width: 720px;
   }
 }
 @media (max-width: 768px) {
   .container {
-    max-width: 540px;
+    width: 540px;
   }
 }
 @media (max-width: 576px) {
   .container {
-    max-width: 100%;
+    width: 100%;
   }
 }
